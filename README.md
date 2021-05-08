@@ -8,7 +8,7 @@ The inputs can be generated from sample python scripts(`generator.py`) with resp
 
 Contibutions to the TheInputsCodeforces are welcomed.
 
-For any non-existent problem, you can write sample python scripts generators (`generator.py`) in the problem specific folder and generate a range of sample inputs for various input size.
+For any non-existent problem, you can write sample python scripts generators ([example](https://github.com/raresraf/TheInputsCodeforces/blob/master/670A/generator/generator.py)) in the problem specific folder and generate a range of sample inputs for various input size.
 
 
 ## Stats:
