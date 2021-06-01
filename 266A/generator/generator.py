@@ -8,9 +8,11 @@ if __name__ == '__main__':
 		with open(f"../{int(test_case)}.DAT", 'w') as f:
 			f.write(f"{int(test_case)}\n")
 			for x in range(int(test_case)):
-				l = np.random.randint(0, 2)
+				l = np.random.randint(0, 3)
 				if int(l) == 0:
-					f.write(f"++X\n")
-				else:
-					f.write(f"--X\n")
+					f.write(f"R")
+				if int(l) == 1:
+					f.write(f"G")
+				if int(l) == 2:
+					f.write(f"B")
 
